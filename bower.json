@@ -1,0 +1,30 @@
+{
+  "name": "blog-particles_site",
+  "description": "this is a complete site on Javascript",
+  "main": "app.js",
+  "authors": [
+    "Fazts js"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "grunt",
+    "bower",
+    "npm",
+    "nodejs",
+    "particlesjs",
+    "express",
+    "sass"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "particles.js": "^2.0.0",
+    "jquery": "^3.0.0"
+  }
+}
