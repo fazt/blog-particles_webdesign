@@ -1,0 +1,39 @@
+header{
+  position: relative;
+  height: auto;
+
+  .menu{
+    background: $white-transparent;
+    overflow: hidden;
+  };
+  .logo{
+    color: rgba(0, 0, 0, .8);
+    float: left;
+    font-size: 30px;
+    line-height: 80px;
+  };
+  nav{
+    float: right;
+    ul{
+      list-style: none;
+      li{
+        float: left;
+        a{
+          color: rgba(0, 0, 0, .8);
+          text-decoration: none;
+          display: block;
+          font-size: 18px;
+          padding: 0 20px;
+          line-height: 80px;
+          &:hover{
+            color: #fff;
+          }
+        }
+        &:hover{
+          background: $black-transparent;
+          border-bottom: inset 5px solid #fff;
+        }
+      }
+    }
+  }
+}

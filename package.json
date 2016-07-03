@@ -4,7 +4,7 @@
   "description": "this is a complete site on Javascript",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
   },
   "keywords": [
     "grunt",
@@ -21,5 +21,8 @@
     "grunt": "^1.0.1",
     "grunt-bower-install": "^1.6.0",
     "grunt-contrib-sass": "^1.0.0"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
   }
 }

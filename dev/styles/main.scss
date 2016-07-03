@@ -1,3 +1,7 @@
-body{
-  background-color: #000;
-}
+@import "partials/variables";
+@import "partials/reset";
+@import "partials/body";
+@import "partials/header";
+@import "partials/texto";
+@import "partials/principal";
+//reset

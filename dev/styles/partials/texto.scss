@@ -1,0 +1,21 @@
+.texto{
+  padding: 200px 0;
+  text-align: center;
+  position: relative;
+  color: $color-font;
+  font-weight: 400;
+  h2,p{
+    background: $black-transparent;
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  h2{
+    font-size: 40px;
+    letter-spacing: 2.5px;
+    font-weight: normal;
+  }
+  p{
+    font-size: 20px;
+    letter-spacing: 2.5px;
+  }
+}

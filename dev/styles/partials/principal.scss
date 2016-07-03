@@ -1,0 +1,17 @@
+.principal{
+  position: relative;
+  color: $color-font2;
+  article{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: $color-font;
+    p{
+      margin-bottom: 20px;
+      line-height: 24px;
+      font-family: Helvetica,arial,sans-serif;
+    }
+    .fecha{
+      color: #939393;
+    }
+  }
+}
