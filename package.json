@@ -4,7 +4,8 @@
   "description": "this is a complete site on Javascript",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node app.js",
+    "postinstall": "./node_modules/grunt/bin/grunt"
   },
   "keywords": [
     "grunt",
@@ -19,7 +20,7 @@
   "license": "ISC",
   "devDependencies": {
     "grunt": "^1.0.1",
-    "grunt-bower-install": "^1.6.0",
+    "grunt-bower-install-simple": "^1.2.4",
     "grunt-contrib-sass": "^1.0.0"
   },
   "dependencies": {

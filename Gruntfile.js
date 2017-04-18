@@ -1,29 +1,19 @@
 module.exports=(grunt)=>{
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
-    sass:{
-      dist:{
-        options:{
-          style:'compressed',
-          noCache:false,
-          sourcemap:'none'
-        },
-        files:{
-          'public/css/main.css':'dev/styles/main.scss'
-        }
-      }
-    },
-    bowerInstall:{
-      dist:{
-        src:['public/index.html'],
+    "bower-install-simple": {
+      options: {
+        directory: "public/bower_components"
+      },
+      "prod":{
+        src:['./public/index.html'],
         dependencies:true,
         devDependencies:true,
         exclude:[]
       }
     }
   });
-  grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-bower-install');
+  grunt.loadNpmTasks('grunt-bower-install-simple');
 
-  grunt.registerTask('default',['sass','bowerInstall']);
+  grunt.registerTask('default',['bower-install-simple']);
 };
