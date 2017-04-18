@@ -19,11 +19,11 @@
   "author": "Fazts js",
   "license": "ISC",
   "devDependencies": {
-    "grunt": "^1.0.1",
     "grunt-bower-install-simple": "^1.2.4",
     "grunt-contrib-sass": "^1.0.0"
   },
   "dependencies": {
+    "grunt": "^1.0.1",
     "express": "^4.14.0"
   }
 }
