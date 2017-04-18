@@ -1,11 +1,11 @@
-##Installing
-`npm install && bower install`
+![ScreenShot](screenshot.png)
 
-##tasks
-`grunt`
+## Instalación
+1. copia/descarga el proyecto
+2. luego dentro del proyecto ejecuta `npm install`
 
-##start
-`npm start`
+## Para ejecutar el proyecto
+3. ejecuta `npm start`
 
-##listening
-http://localhost:3000
+## luego entra en el Proyecto
+4. http://localhost:3000
